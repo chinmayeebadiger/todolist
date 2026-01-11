@@ -44,7 +44,7 @@ The app lets users add tasks, mark them as completed, delete them, and filter to
 ## Running the Project Locally
 
 1. Clone the repository
-```bash
+
 git clone https://github.com/your-username/your-repo-name.git
 
 2. Intall dependencies 
@@ -54,4 +54,3 @@ git clone https://github.com/your-username/your-repo-name.git
 3. Start development server 
 
     npm run dev
-    

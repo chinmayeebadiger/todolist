@@ -1,16 +1,57 @@
-# React + Vite
+# React Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal **Todo app built using React and Vite**.  
+This project helped me practice React fundamentals like state management, component structure, and browser storage.
 
-Currently, two official plugins are available:
+The app lets users add tasks, mark them as completed, delete them, and filter todos using tabs. All data is saved locally in the browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Add new todos
+- Mark todos as completed
+- Delete todos
+- Filter todos (Open / Completed)
+- Saves data using browser `localStorage`
+- Clean and responsive UI
+- Fast setup using Vite
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Built With
+
+- React (useState, useEffect)
+- Vite
+- JavaScript (ES6)
+- CSS
+- Fanta.css (for base styling)
+
+---
+
+## How It Works
+
+- Todos are stored as objects with `input` and `complete` properties
+- State is managed in `App.jsx`
+- Data is saved to `localStorage` whenever the todo list changes
+- On page load, saved todos are loaded back into the app
+
+---
+
+
+---
+
+## Running the Project Locally
+
+1. Clone the repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+
+2. Intall dependencies 
+
+    npm install 
+
+3. Start development server 
+
+    npm run dev
+    
